@@ -10,10 +10,10 @@ gem 'sass-rails', '~>4.0.0'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jbuilder', '1.0.2'
-gem 'sqlite3'
 gem 'jquery-rails', '~> 3.0.4'
 
 group :development, :test do
+  gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
   gem 'spork-rails', github: 'sporkrb/spork-rails'
