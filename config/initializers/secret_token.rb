@@ -21,4 +21,4 @@ def secure_token
   end
 end
 
-webp-ch::Application.config.secret_key_base = secure_token
+WebpCh::Application.config.secret_key_base = secure_token
