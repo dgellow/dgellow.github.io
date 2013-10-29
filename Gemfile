@@ -11,9 +11,9 @@ gem 'bootstrap-sass', '2.3.2.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jbuilder', '1.0.2'
 gem 'jquery-rails', '~> 3.0.4'
+gem 'pg', '~> 0.15.1'
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
   gem 'guard-rspec', '2.5.0'
   gem 'spork-rails', github: 'sporkrb/spork-rails'
@@ -29,6 +29,11 @@ end
 
 group :production do
   gem 'rails_12factor', '0.0.2'
+  gem 'newrelic_rpm'
+end
+
+group :assets do
+  gem 'uglifier'
 end
 
 group :doc do
