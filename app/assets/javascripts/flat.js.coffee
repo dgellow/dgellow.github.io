@@ -4,7 +4,7 @@
 
 # "innerHeight" in window ? window.innerHeight : document.documentElement.offsetHeight;
 window.onload = -> init()
-window.onresize = -> scaleSection()
+window.onresize = -> scaleSection() if $(window).height() > 550
 
 adjustHeight = (elem) -> $(elem).css height: $(window).height()
 scaleSection = -> $('section').map( -> adjustHeight(this))
