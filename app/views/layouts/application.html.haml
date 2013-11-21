@@ -10,3 +10,5 @@
   %body
     %main
       = yield
+    = render :partial => 'layouts/google_analytics' if Rails.env.production?
+
