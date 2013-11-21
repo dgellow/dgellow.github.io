@@ -4,10 +4,10 @@
 
 # "innerHeight" in window ? window.innerHeight : document.documentElement.offsetHeight;
 window.onload = -> init()
-window.onresize = -> scaleSection() if $(window).height() > 550
+window.onresize = -> scaleSections() if $(window).height() > 550
 
 adjustHeight = (elem) -> $(elem).css height: $(window).height()
-scaleSection = -> $('section').map( -> adjustHeight(this))
+scaleSections = -> this.sections.map( -> adjustHeight(this))
 
 softScroll = ->
   $ ->
@@ -22,6 +22,7 @@ softScroll = ->
           false
 
 init = ->
-  scaleSection()
+  this.sections = $('section')
+  scaleSections()
   softScroll()
   true
