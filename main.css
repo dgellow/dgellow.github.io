@@ -1,0 +1,113 @@
+.full-screen {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.row {
+    margin: 0;
+    width: 100%;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+.breath {
+    -webkit-animation: breath 1s ease-in infinite alternate;
+}
+
+@-webkit-keyframes breath {
+    from {
+        width: 40px;
+        height: 40px;
+    }
+
+    to {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+.circle-wrapper {
+    padding-top: 30vh;
+}
+
+#loader {
+    font-family: "Oswald";
+    background-color: white;
+    z-index: 20;
+    transition: top 2s;
+}
+
+#salutation {
+    background-color: rgb(245, 215, 110);
+    color: rgb(255, 244, 207);
+    font-size: 10rem;
+    font-family: "Oswald";
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.sentence > p {
+    margin: 0;
+    padding-top: 12vh;
+    font-weight: lighter;
+    font-family: "Oswald";
+    font-size: 3rem;
+}
+
+.sentence a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.sentence a:hover {
+    text-decoration: underline;
+}
+
+.sentence {
+    height: 30vh;
+}
+
+.separator {
+    height: 5vh;
+}
+
+.sentence.first {
+    background-color: #556270;
+    color: #4ECDC4;
+}
+
+.separator.first {
+    background-color: #4ECDC4;
+}
+
+.sentence.second {
+    background-color: #DAFF88;
+    color: #556270;
+}
+
+.separator.second {
+    background-color: #FF6B6B;
+}
+
+.sentence.third {
+    background-color: #C44D58;
+    color: #FF6B6B;
+}
