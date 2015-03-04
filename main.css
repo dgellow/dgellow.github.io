@@ -1,3 +1,34 @@
+body {
+    overflow: hidden;
+    font-family: "Oswald";
+}
+
+h1 {
+    margin: 0;
+    font-weight: lighter;
+}
+
+ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 700px;
+}
+
+li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    min-width: 150px;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    max-width: 150px;
+}
+
 .full-screen {
     height: 100vh;
     position: absolute;
@@ -17,6 +48,17 @@
 .row {
     margin: 0;
     width: 100%;
+}
+
+.anchor {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: inherit;
+    position: absolute;
+    left: 10px;
+    vertical-align: middle;
+    font-weight: lighter;
+    line-height: 2.5rem;
 }
 
 .circle {
@@ -48,7 +90,6 @@
 }
 
 #loader {
-    font-family: "Oswald";
     background-color: white;
     z-index: 20;
     transition: top 2s;
@@ -58,19 +99,25 @@
     background-color: rgb(245, 215, 110);
     color: rgb(255, 244, 207);
     font-size: 10rem;
-    font-family: "Oswald";
     z-index: 10;
     opacity: 1;
     transition: opacity 2s;
 }
 
+#main {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.text {
+    font-family: sans-serif;
+}
+
 .sentence > p {
     margin: 0;
-    padding-top: 12vh;
+    padding-top: 40px;
     font-weight: lighter;
-    font-family: "Oswald";
-    font-size: 3rem;
-    text-transform: uppercase;
+    font-size: 2.3rem;
 }
 
 .sentence a {
@@ -83,11 +130,12 @@
 }
 
 .sentence {
-    height: 30vh;
+    height: 18vh;
+    min-height: 100px;
 }
 
 .separator {
-    height: 5vh;
+    height: 8px;
 }
 
 .sentence.first {
@@ -102,13 +150,30 @@
 .sentence.second {
     background-color: #DAFF88;
     color: #556270;
+    box-shadow: 0 5px 5px rgba(216, 216, 216, 0.67);
 }
 
 .separator.second {
+    box-shadow: 0 -5px 5px rgba(216, 216, 216, 0.67);
     background-color: #FF6B6B;
 }
 
 .sentence.third {
     background-color: #C44D58;
     color: #FF6B6B;
+    min-height: 240px;
+}
+
+.stack {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.arrow {
+    position: absolute;
+    right: 40px;
 }
