@@ -1,3 +1,4 @@
+/*global setTimeout, $*/
 function randomLoadingText() {
     var texts = [
         "Preparing next planetary alignment",

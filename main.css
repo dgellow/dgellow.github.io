@@ -70,6 +70,7 @@
     font-weight: lighter;
     font-family: "Oswald";
     font-size: 3rem;
+    text-transform: uppercase;
 }
 
 .sentence a {
