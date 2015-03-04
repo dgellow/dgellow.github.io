@@ -4,7 +4,7 @@ function randomLoadingText() {
         "Preparing next planetary alignment",
         "Building incredible stuff",
         "Fighting zombies",
-        "Nobody reads thoses texts"
+        "Nobody reads those texts"
     ];
     return texts[Math.floor(Math.random() * texts.length)];
 }
