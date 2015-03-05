@@ -110,6 +110,8 @@ img {
 }
 
 .text {
+    max-width: 600px;
+    font-size: 1.4rem;
     font-family: sans-serif;
 }
 
@@ -130,8 +132,7 @@ img {
 }
 
 .sentence {
-    height: 18vh;
-    min-height: 100px;
+    min-height: 360px;
 }
 
 .separator {
@@ -147,10 +148,8 @@ img {
     background-color: #4ECDC4;
 }
 
-.sentence.second {
-    background-color: #DAFF88;
-    color: #556270;
-    box-shadow: 0 5px 5px rgba(216, 216, 216, 0.67);
+.sentence.first > p {
+    margin-bottom: 30px;
 }
 
 .separator.second {
@@ -161,7 +160,7 @@ img {
 .sentence.third {
     background-color: #C44D58;
     color: #FF6B6B;
-    min-height: 240px;
+    min-height: 400px;
 }
 
 .stack {
@@ -176,4 +175,40 @@ img {
 .arrow {
     position: absolute;
     right: 40px;
+}
+
+#button-contact {
+    border-radius: 5px;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    height: 60px;
+    padding: 5px 20px;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #1abc9c;
+    border: 0;
+    border-bottom: 2px solid #12ab8d;
+    cursor: pointer;
+    box-shadow: inset 0 -2px #12ab8d;
+}
+
+#button-contact:active {
+    top: 1px;
+    outline: none;
+    box-shadow: none;
+}
+
+#contact__links {
+    padding-top: 30px;
+    margin: auto;
+    width: 600px;
+}
+
+#contact__links > li {
+    font-size: 1.5rem;
+    width: 100%;
+    display: block;
 }
