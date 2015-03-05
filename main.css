@@ -131,7 +131,7 @@ img {
 }
 
 .sentence {
-    min-height: 360px;
+    min-height: 400px;
 }
 
 .separator {
@@ -203,11 +203,10 @@ img {
 #contact__links {
     padding-top: 30px;
     margin: auto;
-    width: 600px;
 }
 
 #contact__links > li {
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 100%;
     display: block;
 }
