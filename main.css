@@ -130,8 +130,22 @@ img {
     text-decoration: underline;
 }
 
-.sentence {
-    min-height: 400px;
+@media (max-width: 360px) {
+    .sentence {
+        height: 600px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 600px) {
+    .sentence {
+        height: 500px;
+    }
+}
+
+@media (min-width: 601px) {
+    .sentence {
+        height: 400px
+    }
 }
 
 .separator {
@@ -159,7 +173,8 @@ img {
 .sentence.third {
     background-color: #C44D58;
     color: #FF6B6B;
-    min-height: 100vh;
+    min-height: 250px;
+    height: 93vh;
 }
 
 .stack {
