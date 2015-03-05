@@ -159,7 +159,7 @@ img {
 .sentence.third {
     background-color: #C44D58;
     color: #FF6B6B;
-    min-height: 400px;
+    min-height: 100vh;
 }
 
 .stack {
