@@ -153,7 +153,6 @@ img {
 }
 
 .sentence.first {
-    background-color: #556270;
     color: #4ECDC4;
 }
 
@@ -171,7 +170,6 @@ img {
 }
 
 .sentence.third {
-    background-color: #C44D58;
     color: #FF6B6B;
     min-height: 250px;
     height: 93vh;
