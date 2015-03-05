@@ -16,12 +16,15 @@ ul {
 }
 
 li {
-    display: inline-block;
     margin: 0;
     padding: 0;
-    width: 24%;
     min-width: 150px;
     list-style: none;
+}
+
+.h-list > li {
+    display: inline-block;
+    width: 24%;
 }
 
 img {
@@ -48,17 +51,6 @@ img {
 .row {
     margin: 0;
     width: 100%;
-}
-
-.anchor {
-    font-size: 0.9rem;
-    text-decoration: none;
-    color: inherit;
-    position: absolute;
-    left: 10px;
-    vertical-align: middle;
-    font-weight: lighter;
-    line-height: 2.5rem;
 }
 
 .circle {
@@ -114,36 +106,37 @@ img {
     font-family: sans-serif;
 }
 
-.sentence > p {
+.paper-piece > p {
     margin: 0;
     padding-top: 40px;
     font-weight: lighter;
     font-size: 2.3rem;
 }
 
-.sentence a {
+.paper-piece a {
     color: inherit;
+    background-color: white;
     text-decoration: none;
 }
 
-.sentence a:hover {
+.paper-piece a:hover {
     text-decoration: underline;
 }
 
 @media (max-width: 360px) {
-    .sentence {
+    .paper-piece {
         height: 600px;
     }
 }
 
 @media (min-width: 361px) and (max-width: 600px) {
-    .sentence {
+    .paper-piece {
         height: 500px;
     }
 }
 
 @media (min-width: 601px) {
-    .sentence {
+    .paper-piece {
         height: 400px
     }
 }
@@ -152,27 +145,28 @@ img {
     height: 8px;
 }
 
-.sentence.first {
+.paper-piece.top {
     color: #4ECDC4;
 }
 
-.separator.first {
-    background-color: #4ECDC4;
-}
-
-.sentence.first > p {
+.paper-piece.top > p {
     margin-bottom: 30px;
 }
 
-.separator.second {
-    box-shadow: 0 -5px 5px rgba(216, 216, 216, 0.67);
-    background-color: #FF6B6B;
-}
-
-.sentence.third {
+.paper-piece.bottom {
     color: #FF6B6B;
     min-height: 250px;
     height: 93vh;
+}
+
+.separator.top {
+    box-shadow: 0 5px 5px rgba(216, 216, 216, 0.67);
+    background-color: #4ECDC4;
+}
+
+.separator.bottom {
+    box-shadow: 0 -5px 5px rgba(216, 216, 216, 0.67);
+    background-color: #FF6B6B;
 }
 
 .stack {
@@ -182,11 +176,6 @@ img {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
-}
-
-.arrow {
-    position: absolute;
-    right: 40px;
 }
 
 #button-contact {
@@ -221,5 +210,4 @@ img {
 #contact__links > li {
     font-size: 2rem;
     width: 100%;
-    display: block;
 }
