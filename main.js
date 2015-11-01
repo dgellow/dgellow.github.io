@@ -1,4 +1,4 @@
-/*global setTimeout, $*/
+/*global setTimeout, $, particlesJS*/
 function randomLoadingText() {
     var texts = [
         "Preparing next planetary alignment",
@@ -16,6 +16,7 @@ function randomSalutation() {
         "bonjour",
         "hello",
         "Welcome",
+        "สวัสดีครับ"
     ];
     var item = texts[Math.floor(Math.random() * texts.length)];
     return item.toUpperCase().concat('!');
@@ -26,11 +27,10 @@ window.onload = function() {
         loadText = $('#loader .text'),
         circle = $('#loader .circle'),
         salutation = $('#salutation'),
-        salutationText = $('#salutation .text'),
         sentences = $('#sentences');
 
     loadText.text(randomLoadingText());
-    salutationText.text(randomSalutation());
+    salutation.text(randomSalutation()).slabText();
 
     setTimeout(function() {
         loader.get(0).style.top = "-100vh";
@@ -46,4 +46,8 @@ window.onload = function() {
     setTimeout(function() {
         salutation.addClass('hidden');
     }, 6000);
+
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
 };

@@ -1,11 +1,12 @@
 body {
-    overflow: hidden;
-    font-family: "Oswald";
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
 }
 
-h1 {
+h1, h2 {
     margin: 0;
     font-weight: lighter;
+    text-align: center;
 }
 
 ul {
@@ -22,35 +23,20 @@ li {
     list-style: none;
 }
 
-.h-list > li {
-    display: inline-block;
-    width: 24%;
-}
-
 img {
-    width: 100%;
-    max-width: 150px;
+    height: 100px;
 }
 
 .full-screen {
-    height: 100vh;
-    position: absolute;
+    height: 100%;
     width: 100%;
+    position: fixed;
     top: 0;
     left: 0;
 }
 
-.centered {
-    text-align: center;
-}
-
 .hidden {
     display: none;
-}
-
-.row {
-    margin: 0;
-    width: 100%;
 }
 
 .circle {
@@ -79,12 +65,13 @@ img {
 
 .circle-wrapper {
     padding-top: 30vh;
+    text-align: center;
 }
 
 #loader {
     background-color: white;
     z-index: 20;
-    transition: top 2s;
+    transition: top 1s;
 }
 
 #salutation {
@@ -93,80 +80,40 @@ img {
     font-size: 10rem;
     z-index: 10;
     opacity: 1;
-    transition: opacity 2s;
+    transition: opacity 1s;
+    display: flex;
+    align-items: center;
 }
 
 #main {
-    overflow-x: hidden;
-    overflow-y: scroll;
+    margin: auto;
+    max-width: 600px;
+    padding-top: 80px;
 }
 
-.text {
-    font-size: 1.4rem;
-    font-family: sans-serif;
+#main h1 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 80px;
 }
 
-.paper-piece > p {
-    margin: 0;
-    padding-top: 40px;
-    font-weight: lighter;
-    font-size: 2.3rem;
-}
-
-.paper-piece a {
-    color: inherit;
+.card {
     background-color: white;
-    text-decoration: none;
+    border: 1px #D4D4D4 solid;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
 }
 
-.paper-piece a:hover {
-    text-decoration: underline;
+.card header {
+    padding-top: 40px;
+    width: 100%;
 }
 
-@media (max-width: 360px) {
-    .paper-piece {
-        height: 600px;
-    }
-}
-
-@media (min-width: 361px) and (max-width: 600px) {
-    .paper-piece {
-        height: 500px;
-    }
-}
-
-@media (min-width: 601px) {
-    .paper-piece {
-        height: 400px
-    }
-}
-
-.separator {
-    height: 8px;
-}
-
-.paper-piece.top {
-    color: #4ECDC4;
-}
-
-.paper-piece.top > p {
-    margin-bottom: 30px;
-}
-
-.paper-piece.bottom {
-    color: #FF6B6B;
-    min-height: 250px;
-    height: 93vh;
-}
-
-.separator.top {
-    box-shadow: 0 5px 5px rgba(216, 216, 216, 0.67);
-    background-color: #4ECDC4;
-}
-
-.separator.bottom {
-    box-shadow: 0 -5px 5px rgba(216, 216, 216, 0.67);
-    background-color: #FF6B6B;
+.card p {
+    padding-top: 30px;
 }
 
 .stack {
@@ -178,36 +125,64 @@ img {
     padding-bottom: 30px;
 }
 
-#button-contact {
-    border-radius: 5px;
-    position: relative;
-    vertical-align: top;
-    width: 100%;
-    height: 60px;
-    padding: 5px 20px;
-    font-size: 1.4rem;
-    color: white;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-    background: #1abc9c;
-    border: 0;
-    border-bottom: 2px solid #12ab8d;
-    cursor: pointer;
-    box-shadow: inset 0 -2px #12ab8d;
+#my-picture {
+    border-radius: 1000px;
+    display: inline-block;
+    background-image: url(http://i.imgur.com/Lh1tXSR.jpg);
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
 }
 
-#button-contact:active {
-    top: 1px;
-    outline: none;
-    box-shadow: none;
+#contact-links {
+    width: 50%;
 }
 
-#contact__links {
-    padding-top: 30px;
-    margin: auto;
+.block {
+    border: 1px #D4D4D4 solid;
+    border-radius: 3px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
 }
 
-#contact__links > li {
-    font-size: 2rem;
-    width: 100%;
+.column {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column p {
+    align-self: top;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+    background-color: #401818;
+}
+
+.slabtexted .slabtext {
+    display:-moz-inline-box;
+    display:inline-block;
+    white-space:nowrap;
+}
+.slabtextinactive .slabtext {
+    display:inline;
+    white-space:normal;
+    font-size:1em !important;
+    letter-spacing:inherit !important;
+    word-spacing:inherit !important;
+    *letter-spacing:0 !important;
+    *word-spacing:0 !important;
+}
+.slabtextdone .slabtext {
+    display:block;
 }
