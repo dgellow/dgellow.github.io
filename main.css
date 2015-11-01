@@ -35,7 +35,7 @@ img {
     left: 0;
 }
 
-.hidden {
+#salutation.hidden {
     display: none;
 }
 
@@ -83,6 +83,7 @@ img {
     transition: opacity 1s;
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 #main {
