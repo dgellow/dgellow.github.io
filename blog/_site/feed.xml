@@ -3,10 +3,10 @@
   <channel>
     <title>something dev</title>
     <description>dgellow&#39;s dev blog</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Nov 2015 19:33:24 +0100</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2015 19:33:24 +0100</lastBuildDate>
+    <link>http://www.webp.ch/blog/</link>
+    <atom:link href="http://www.webp.ch/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 05 Nov 2015 19:37:26 +0100</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2015 19:37:26 +0100</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -105,8 +105,8 @@
 
 </description>
         <pubDate>Thu, 05 Nov 2015 00:00:00 +0100</pubDate>
-        <link>/clojurescript/2015/11/05/how-to-js-modules-from-clojurescript.html</link>
-        <guid isPermaLink="true">/clojurescript/2015/11/05/how-to-js-modules-from-clojurescript.html</guid>
+        <link>http://www.webp.ch/blog/clojurescript/2015/11/05/how-to-js-modules-from-clojurescript.html</link>
+        <guid isPermaLink="true">http://www.webp.ch/blog/clojurescript/2015/11/05/how-to-js-modules-from-clojurescript.html</guid>
         
         
         <category>clojurescript</category>
