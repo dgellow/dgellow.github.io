@@ -146,6 +146,11 @@ img {
     padding: 30px;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.block:last-child {
+    margin-bottom: 0;
 }
 
 .column {
