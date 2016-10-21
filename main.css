@@ -93,8 +93,8 @@ img {
 
 #main h1 {
     font-size: 1.5rem;
-    color: white;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .card {
