@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Samuel El-Borai ¤ Software Engineer"
 theme = "introduction"
 
+# For Github pages support
+publishDir = "docs"
+
 [params]
     themeStyle                   = "light"                 # Choose "light" or "dark"
     favicon                      = "/img/fav.ico"          # Path to favicon file
