@@ -11,6 +11,28 @@
     
     
     <item>
+      <title>Sam&#39;s Virtual Console</title>
+      <link>https://dgellow.dev/projects/virtual-console/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dgellow.dev/projects/virtual-console/</guid>
+      <description>I&amp;rsquo;m playing around with the idea of a completely virtual retro game console, in the idea of Pico8 but closer to a Commodore 64.
+The project is a work in progress, I work on it from time to time when I feel like it. That gives me the opportunity to learn C++, and 6502 programming.
+The project consists of: - A virtual CPU, currently an emulation of a 6502 - An assembler to parse and compile a simple ASM language to 6502 instructions - A graphical editor to be able to write programs, run them in the virtual console, and debug it</description>
+    </item>
+    
+    <item>
+      <title>Color palette extraction</title>
+      <link>https://dgellow.dev/projects/color-palette/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dgellow.dev/projects/color-palette/</guid>
+      <description>Because I wanted to understand how that works, I created a small web application that extracts mains colors from an image file, resulting in a color palette.
+The application is available online. The core is really small, it is a simple implementation of a quantizer using an histogram. The N most frequent colors are then used to compose the palette.
+Source code available at https://github.com/dgellow/imgcolor.</description>
+    </item>
+    
+    <item>
       <title>Movie Releases (telegram bot)</title>
       <link>https://dgellow.dev/projects/movie-releases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -18,6 +40,15 @@
       <guid>https://dgellow.dev/projects/movie-releases/</guid>
       <description>As I wanted to play a bit with Google&amp;rsquo;s Appengine, and to do some programming with my partner in life, we created together a simple bot for the chat application Telegram. The bot, available at @MovieReleasesBot, allows people to list incoming movie releases and subscribe to them to receive a notification a few days before the actual release.
 The complete code is available at https://github.com/dgellow/movie-releases. Given that this project is something we do during our weekends and that my partner doesn&amp;rsquo;t have a programming background be aware that nothing here is optimized in any way, or covered by tests, or anything that would be considered production ready.</description>
+    </item>
+    
+    <item>
+      <title>Disk Info (macOS)</title>
+      <link>https://dgellow.dev/projects/disk-info/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dgellow.dev/projects/disk-info/</guid>
+      <description>One thing I find myself constantly checking on my personal machines is the amount of free space. macOS doesn&amp;rsquo;t provide a quick way to get that information without switching the context, that&amp;rsquo;s why I created DiskInfo.app, a truly simple application for the menu bar that displays some statistics. One click, get the job done. I use it all the time 😁. Unfortunately it isn&amp;rsquo;t available on the App Store anymore, 100€/year only for this small tool is way too expensive.</description>
     </item>
     
     <item>

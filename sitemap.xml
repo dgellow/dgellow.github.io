@@ -3,7 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://dgellow.dev/projects/virtual-console/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dgellow.dev/projects/color-palette/</loc>
+  </url>
+  
+  <url>
     <loc>https://dgellow.dev/projects/movie-releases/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dgellow.dev/projects/disk-info/</loc>
   </url>
   
   <url>

@@ -10,20 +10,20 @@
 <meta name="referrer" content="no-referrer">
 
 <title>
-Movie Releases (telegram bot) - Samuel El-Borai ¤ Software Engineer
+Color palette extraction - Samuel El-Borai ¤ Software Engineer
 </title>
 
 
 
-        <meta property="og:title" content="Movie Releases (telegram bot) - Samuel El-Borai ¤ Software Engineer" />
+        <meta property="og:title" content="Color palette extraction - Samuel El-Borai ¤ Software Engineer" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content=""/>
-<meta property="og:url" content="https://dgellow.dev/projects/movie-releases/"/>
+<meta property="og:url" content="https://dgellow.dev/projects/color-palette/"/>
 <meta property="og:site_name" content="Samuel El-Borai ¤ Software Engineer"/>
 
 
 
-<meta property="og:image" content="https://dgellow.dev/projects/movie-releases/chat_subscribe.png"/>
+<meta property="og:image" content="https://dgellow.dev/projects/color-palette/color-palette.png"/>
 
 
 
@@ -58,7 +58,7 @@ Movie Releases (telegram bot) - Samuel El-Borai ¤ Software Engineer
             
             <div class="container hero ">
                 
-                <h1 class="bold-title is-1">Movie Releases (telegram bot)</h1>
+                <h1 class="bold-title is-1">Color palette extraction</h1>
                 
             </div>
             
@@ -110,17 +110,17 @@ Movie Releases (telegram bot) - Samuel El-Borai ¤ Software Engineer
                 
                     
                     
-                        <img src="/projects/movie-releases/chat_subscribe_hue53c5d498d51a953bf261f62e2b207fd_157478_1000x0_resize_box_2.png" class="img-responsive" alt="chat_subscribe.png">
+                        <img src="/projects/color-palette/color-palette_hu4fd44a4603a0f9eec7b712c48e4dc576_33969_1000x0_resize_box_2.png" class="img-responsive" alt="color-palette.png">
                     
                 
             
         </div>
         
-        <p>As I wanted to play a bit with Google&rsquo;s Appengine, and to do some programming with my partner in life, we created together a simple bot for the chat application <a href="https://telegram.org">Telegram</a>. The bot, available at <a href="https://telegram.me/MovieReleasesBot">@MovieReleasesBot</a>, allows people to list incoming movie releases and subscribe to them to receive a notification a few days before the actual release.</p>
+        <p>Because I wanted to understand how that works, I created a small web application that extracts mains colors from an image file, resulting in a color palette.</p>
 
-<p>The complete code is available at <a href="https://github.com/dgellow/movie-releases">https://github.com/dgellow/movie-releases</a>. Given that this project is something we do during our weekends and that my partner doesn&rsquo;t have a programming background be aware that nothing here is optimized in any way, or covered by tests, or anything that would be considered production ready.</p>
+<p>The application is available <a href="https://color-detection-service.appspot.com">online</a>. <a href="https://github.com/dgellow/imgcolor/blob/master/quantizer.go">The core is really small</a>, it is a simple implementation of a <a href="https://en.wikipedia.org/wiki/Quantization_(signal_processing)">quantizer</a> using an <a href="https://en.wikipedia.org/wiki/Histogram">histogram</a>. The N most frequent colors are then used to compose the palette.</p>
 
-<p>Still a fun little project I like to spend some time on from time to time (and that gives us some great whiteboard sessions!) 🙂.</p>
+<p>Source code available at <a href="https://github.com/dgellow/imgcolor">https://github.com/dgellow/imgcolor</a>.</p>
 
     </div>
     

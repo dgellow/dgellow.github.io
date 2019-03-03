@@ -209,6 +209,56 @@ Samuel El-Borai ¤ Software Engineer
                                     
                                     
                                     
+                                    <img src="https://dgellow.dev/projects/virtual-console/virtcpu_hub332bf4053bcc84e67890b7d79b7ff0b_81250_302x0_resize_box_2.png" alt ="virtcpu.png">
+                                    
+                                    
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="card-content has-text-centered top-pad">
+                            <a >
+                                Sam&#39;s Virtual Console
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+                <div class="column is-one-third">
+                    <div class="card" data-target="#project-1">
+                        <div class="card-image">
+                            <figure class="image is-3by2">
+                                <a >
+                                    
+                                    
+                                    
+                                    <img src="https://dgellow.dev/projects/color-palette/color-palette_hu4fd44a4603a0f9eec7b712c48e4dc576_33969_302x0_resize_box_2.png" alt ="color-palette.png">
+                                    
+                                    
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="card-content has-text-centered top-pad">
+                            <a >
+                                Color palette extraction
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+                <div class="column is-one-third">
+                    <div class="card" data-target="#project-2">
+                        <div class="card-image">
+                            <figure class="image is-3by2">
+                                <a >
+                                    
+                                    
+                                    
                                     <img src="https://dgellow.dev/projects/movie-releases/chat_subscribe_hue53c5d498d51a953bf261f62e2b207fd_157478_302x0_resize_box_2.png" alt ="chat_subscribe.png">
                                     
                                     
@@ -227,7 +277,32 @@ Samuel El-Borai ¤ Software Engineer
                 
                 
                 <div class="column is-one-third">
-                    <div class="card" data-target="#project-1">
+                    <div class="card" data-target="#project-3">
+                        <div class="card-image">
+                            <figure class="image is-3by2">
+                                <a >
+                                    
+                                    
+                                    
+                                    <img src="https://dgellow.dev/projects/disk-info/disk-info_hu5275a0e67d125f62b84c248e7a77a979_113559_302x0_resize_box_2.png" alt ="disk-info.png">
+                                    
+                                    
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="card-content has-text-centered top-pad">
+                            <a >
+                                Disk Info (macOS)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+                <div class="column is-one-third">
+                    <div class="card" data-target="#project-4">
                         <div class="card-image">
                             <figure class="image is-3by2">
                                 <a >
@@ -261,6 +336,85 @@ Samuel El-Borai ¤ Software Engineer
         <div class="modal-card">
             
             <header class="modal-card-header bottom-pad">
+                <p class="modal-card-title has-text-centered">Sam&#39;s Virtual Console</p>
+            </header>
+            
+
+            
+            
+            
+                
+                    
+                    
+                        <img src="https://dgellow.dev/projects/virtual-console/virtcpu_hub332bf4053bcc84e67890b7d79b7ff0b_81250_640x0_resize_box_2.png" class="img-responsive" alt="virtcpu.png">
+                    
+                
+            
+            
+
+            
+            <section class="modal-card-body markdown">
+                <p>I&rsquo;m playing around with the idea of a completely virtual retro game console, in the idea of <a href="https://www.lexaloffle.com/pico-8.php">Pico8</a> but closer to a <a href="https://en.wikipedia.org/wiki/Commodore_64">Commodore 64</a>.</p>
+
+<p>The project is a work in progress, I work on it from time to time when I feel like it. That gives me the opportunity to learn C++, and <a href="https://en.wikibooks.org/wiki/6502_Assembly">6502</a> programming.</p>
+
+<p>The project consists of:
+- A virtual CPU, currently an emulation of a <a href="https://en.wikipedia.org/wiki/MOS_Technology_6502">6502</a>
+- An assembler to parse and compile a simple ASM language to 6502 instructions
+- A graphical editor to be able to write programs, run them in the virtual console, and debug it</p>
+
+<p>Source code: <a href="https://github.com/dgellow/VirtualConsole">https://github.com/dgellow/VirtualConsole</a></p>
+
+            </section>
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" data-target="#project-0"></button>
+    </div>
+    
+    
+    
+    <div class="modal" id="project-1">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            
+            <header class="modal-card-header bottom-pad">
+                <p class="modal-card-title has-text-centered">Color palette extraction</p>
+            </header>
+            
+
+            
+            
+            
+                
+                    
+                    
+                        <img src="https://dgellow.dev/projects/color-palette/color-palette_hu4fd44a4603a0f9eec7b712c48e4dc576_33969_640x0_resize_box_2.png" class="img-responsive" alt="color-palette.png">
+                    
+                
+            
+            
+
+            
+            <section class="modal-card-body markdown">
+                <p>Because I wanted to understand how that works, I created a small web application that extracts mains colors from an image file, resulting in a color palette.</p>
+
+<p>The application is available <a href="https://color-detection-service.appspot.com">online</a>. <a href="https://github.com/dgellow/imgcolor/blob/master/quantizer.go">The core is really small</a>, it is a simple implementation of a <a href="https://en.wikipedia.org/wiki/Quantization_(signal_processing)">quantizer</a> using an <a href="https://en.wikipedia.org/wiki/Histogram">histogram</a>. The N most frequent colors are then used to compose the palette.</p>
+
+<p>Source code available at <a href="https://github.com/dgellow/imgcolor">https://github.com/dgellow/imgcolor</a>.</p>
+
+            </section>
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" data-target="#project-1"></button>
+    </div>
+    
+    
+    
+    <div class="modal" id="project-2">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            
+            <header class="modal-card-header bottom-pad">
                 <p class="modal-card-title has-text-centered">Movie Releases (telegram bot)</p>
             </header>
             
@@ -283,17 +437,52 @@ Samuel El-Borai ¤ Software Engineer
 
 <p>The complete code is available at <a href="https://github.com/dgellow/movie-releases">https://github.com/dgellow/movie-releases</a>. Given that this project is something we do during our weekends and that my partner doesn&rsquo;t have a programming background be aware that nothing here is optimized in any way, or covered by tests, or anything that would be considered production ready.</p>
 
-<p>Still a fun little project 🙂 I like to spend some time on from time to time (and that gives us some great whiteboard sessions!).</p>
+<p>Still a fun little project I like to spend some time on from time to time (and that gives us some great whiteboard sessions!) 🙂.</p>
 
             </section>
             
         </div>
-        <button class="modal-close is-large" aria-label="close" data-target="#project-0"></button>
+        <button class="modal-close is-large" aria-label="close" data-target="#project-2"></button>
     </div>
     
     
     
-    <div class="modal" id="project-1">
+    <div class="modal" id="project-3">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            
+            <header class="modal-card-header bottom-pad">
+                <p class="modal-card-title has-text-centered">Disk Info (macOS)</p>
+            </header>
+            
+
+            
+            
+            
+                
+                    
+                    
+                        <img src="https://dgellow.dev/projects/disk-info/disk-info_hu5275a0e67d125f62b84c248e7a77a979_113559_640x0_resize_box_2.png" class="img-responsive" alt="disk-info.png">
+                    
+                
+            
+            
+
+            
+            <section class="modal-card-body markdown">
+                <p>One thing I find myself constantly checking on my personal machines is the amount of free space. macOS doesn&rsquo;t provide a quick way to get that information without switching the context, that&rsquo;s why I created DiskInfo.app, a truly simple application for the menu bar that displays some statistics. One click, get the job done. I use it all the time 😁. Unfortunately it isn&rsquo;t available on the App Store anymore, 100€/year only for this small tool is way too expensive.</p>
+
+<p>Source code available at <a href="https://github.com/dgellow/DiskInfo">https://github.com/dgellow/DiskInfo</a>.</p>
+
+            </section>
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" data-target="#project-3"></button>
+    </div>
+    
+    
+    
+    <div class="modal" id="project-4">
         <div class="modal-background"></div>
         <div class="modal-card">
             
@@ -323,7 +512,7 @@ Samuel El-Borai ¤ Software Engineer
             </section>
             
         </div>
-        <button class="modal-close is-large" aria-label="close" data-target="#project-1"></button>
+        <button class="modal-close is-large" aria-label="close" data-target="#project-4"></button>
     </div>
     
     
