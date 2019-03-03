@@ -1,0 +1,4 @@
+baseURL = "https://dgellow.dev/"
+languageCode = "en-us"
+title = "Samuel El-Borai ¤ Software Engineer"
+theme = "introduction"
