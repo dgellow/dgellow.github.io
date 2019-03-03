@@ -4,7 +4,7 @@ date: 2019-03-03T12:00:00+01:00
 tags: ["words"]
 ---
 
-I recently decided to organize my thoughts, ideas, and projects a bit better given that they are currently spread around in GitHub, BitBucket, GitLab, and multiple computers and (physical) notebooks. As part of this move I setup this website and blog, that will be available (or already is) at [www.dgellow.me](https://www.dgellow.me) (newly released TLD for a fresh start!).
+I recently decided to organize my thoughts, ideas, and projects a bit better given that they are currently spread around in GitHub, BitBucket, GitLab, and multiple computers and (physical) notebooks. As part of this move I setup this website and blog, that will be available (or already is) at [dgellow.me](https://dgellow.me) (newly released TLD for a fresh start!).
 
 I would like to use it as my personal tool, a place where I can share current thoughts and ideas, find past ones, centralize documentation and showcase of some projects, and see my progression, learning, improvement over time.
 
