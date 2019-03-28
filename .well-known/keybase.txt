@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/dgellow
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dgellow.dev
+  * I am dgellow (https://keybase.io/dgellow) on keybase.
+  * I have a public key ASCcH2cvovOpY_CZPsr9ouD4bS7y3X3YPd1UgVbkSqPNMwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209c1f672fa2f3a963f0993ecafda2e0f86d2ef2dd7dd83ddd548156e44aa3cd330a",
+      "host": "keybase.io",
+      "kid": "01209c1f672fa2f3a963f0993ecafda2e0f86d2ef2dd7dd83ddd548156e44aa3cd330a",
+      "uid": "367ec53f5cf6aa3670986cc53d9b3a19",
+      "username": "dgellow"
+    },
+    "merkle_root": {
+      "ctime": 1553768598,
+      "hash": "1bb4df92171dc4bda3ac07c568132b39c61777740640ca4c78abcc11e87f10f000a75f7770ced9d869c087fdaca30bf0985792fb3faebac24a7e31286592eee1",
+      "hash_meta": "bf88f6612001318cac290bbc42473bfda0caf8f07946bdec138d116455bc4463",
+      "seqno": 5045010
+    },
+    "service": {
+      "entropy": "oXYSHgB1TE+8upQKwyuivCZR",
+      "hostname": "dgellow.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553768608,
+  "expire_in": 504576000,
+  "prev": "c666197b3d94b9a76ffd86de56e4dc50d8a30088c43e84ec020c50fb7215f002",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnB9nL6LzqWPwmT7K/aLg+G0u8t192D3dVIFW5EqjzTMKp3BheWxvYWTESpcCDMQgxmYZez2Uuadv/YbeVuTcUNijAIjEPoTsAgxQ+3IV8ALEIFCt2krofo2YoB6Wp+3EWcExM7l/pFum1mQfQLg8+LroAgHCo3NpZ8RA2992I1c/9SXB9wE+lcCTCE6n4e4YBtt5UceC6K3ct851uKmYRg7eNCEsj7zHgACPBhPTR9e7UXmFXje5VL1DBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAuikqnxPeW95/YCDawZ1vPWkBUZHippzRyps2b3U5Qko3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dgellow
+
+==================================================================
